@@ -54,6 +54,15 @@ If none of that's enough and you want the actual emoji-reaction, always-on-bot v
 - [`tabletop-gaming-events-calendar`](https://github.com/TABARC-Code/tabletop-gaming-events-calendar) — the core plugin. Required, not optional.
 - [`WP-Discord-Autoposter-V2`](https://github.com/TABARC-Code/WP-Discord-Autoposter-V2) — the simpler one-way version of "post to Discord when something's published", for when you don't need any of this and just want a quiet announcement. A few of the harder-won lessons in that one (mentions, duplicate sends, logging failures instead of eating them) got carried over here and into the core plugin's own webhook code, because there wasn't any good reason to learn them twice.
 
+## Other pieces of the set
+
+Every plugin here stands alone and only ever needs the [core calendar](https://github.com/TABARC-Code/Tabletop-Gaming-Events-Calendar) — none depend on each other. Take what's useful:
+
+- [Tabletop-Events-Reviews](https://github.com/TABARC-Code/Tabletop-Events-Reviews) — RSVP-gated event and organiser reviews
+- [Tabletop-Events-Carpool](https://github.com/TABARC-Code/Tabletop-Events-Carpool) — Lift-share board per event
+- [tabletop-events-resources](https://github.com/TABARC-Code/tabletop-events-resources) — Terrain, tables and dice to borrow
+- [tabletop-events-tournaments](https://github.com/TABARC-Code/tabletop-events-tournaments) — Swiss pairings and standings
+
 ## Licence
 
 GPL v2 or later. Do what you like with it, same as everything else here.
